@@ -23,6 +23,9 @@ RSS_FEEDS = {
     "Gshow": "https://gshow.globo.com/rss/gshow/",
     "LeoDias": "https://portalleodias.com/feed/",
 
+    # 🌐 Google News (celebridades BR)
+    "GoogleNews": "https://news.google.com/rss/search?q=celebridades+brasil&hl=pt-BR&gl=BR&ceid=BR:pt-419",
+
     # 🇺🇸 EUA
     "TMZ": "https://www.tmz.com/rss.xml",
     "People": "https://people.com/feed/",
@@ -59,7 +62,7 @@ def fetch_news():
             if count >= LIMIT_PER_SOURCE:
                 break
 
-            # 🔥 Melhor lógica de resumo
+            # Melhor lógica de resumo
             content = entry.get("content", [])
 
             if content:
