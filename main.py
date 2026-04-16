@@ -22,6 +22,7 @@ RSS_FEEDS = {
     "F5": "https://feeds.folha.uol.com.br/f5/rss091.xml",
     "Gshow": "https://gshow.globo.com/rss/gshow/",
     "LeoDias": "https://portalleodias.com/feed/",
+    "Metropoles 2": "https://www.metropoles.com/ultimas-noticias/feed/",
 
     # 🌐 Google News (celebridades BR)
     "GoogleNews": "https://news.google.com/rss/search?q=celebridades+brasil&hl=pt-BR&gl=BR&ceid=BR:pt-419",
