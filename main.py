@@ -6,9 +6,7 @@ from datetime import datetime
 import re
 
 RSS_FEEDS = {
-    "Purepeople": "https://www.purepeople.com.br/rss/news.xml",
-    "OFuxico": "https://feeds.feedburner.com/ofuxico",
-    "Terra": "https://www.terra.com.br/rss/diversao/gente.xml"
+        "HugoGloss": "https://hugogloss.uol.com.br/feed/"
 }
 
 LIMIT_PER_SOURCE = 5
